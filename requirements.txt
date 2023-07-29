@@ -1,7 +1,7 @@
 pyrogram==1.4.16
 tgcrypto
 requests
-pyromod==1.5
+pyromod
 ffmpeg
 mediainfo
 cloudscraper
@@ -44,4 +44,5 @@ requests-toolbelt==0.10.1
 TgCrypto==1.2.5
 
 urllib3==1.26.15
+jinja2
 yt-dlp
