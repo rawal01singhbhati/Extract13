@@ -114,10 +114,11 @@ async def account_login(bot: Client, m: Message):
             url = links[i][1]
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@","").replace("*","").replace(".","").strip()
             
-            if "classplus" in url:
+            if "videos.classplus" in url:
                 headers = {
                     'Host': 'api.classplusapp.com',
-                    'x-access-token': f'{token}',
+                    'x-access-token':
+                    'eyJhbGcioiJIUZM4NCIsInR5cC161kpXVCJ9.eyJpZCI6MzgzNjkyMTIsIm9yZ0lkIjoyNjA1LCJ0eXBlIjoxLCJLb2JpbGUi0115MTCWODI3NzQyODkiLCJuYW1lIjoiQwNlIiwiZW1hawwiOm51bGwsIm1zRmlyc3RMb2dpbi16dHJ1ZSwiZGVmYXVsdExhbmd1YWdlIjpudWxsLCJjb3VudHJ5Q29kZSI6IkloIiwiaXNJbnRlcm5hdGlvbmFsIjowLCJpYXQiOjE2NDMYODE4NzcsImV4CCI6MTYOMzg4NjY3N30.hM33P2ai6ivdzxPPfm01LAD4JWv-vnrSXGXqvCircSpufhhofpeqyeHPxtstXwe0',
                     'user-agent': 'Mobile-Android',
                     'app-version': '1.4.37.1',
                     'api-version': '18',
